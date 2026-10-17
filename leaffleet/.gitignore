@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.wrangler/
+.dev.vars*
+.env*
+*.db
+*.db-*
+*.sqlite*
+npm-debug.log*
+
+# Reconstructed from checksummed source parts during the build.
+/public/assets/ev-objects.png

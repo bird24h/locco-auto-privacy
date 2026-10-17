@@ -1,0 +1,12 @@
+import {readdir,readFile,mkdir,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const root=new URL('../',import.meta.url),source=new URL('asset-source/',root);
+const manifest=JSON.parse(await readFile(new URL('manifest.json',source),'utf8'));
+const names=(await readdir(source)).filter(n=>/^ev-objects\.\d{3}\.base64$/.test(n)).sort();
+if(names.length!==manifest.parts)throw Error('Asset source is incomplete');
+const encoded=(await Promise.all(names.map(n=>readFile(new URL(n,source),'utf8')))).join('');
+const bytes=Buffer.from(encoded,'base64');
+if(bytes.length!==manifest.bytes||createHash('sha256').update(bytes).digest('hex')!==manifest.sha256)throw Error('Asset checksum mismatch');
+await mkdir(new URL('public/assets/',root),{recursive:true});
+await writeFile(new URL('public/assets/ev-objects.png',root),bytes);
+console.log('Original illustration reconstructed and verified.');

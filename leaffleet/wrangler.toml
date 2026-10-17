@@ -1,0 +1,20 @@
+name = "leaffleet"
+main = "server/worker.mjs"
+compatibility_date = "2026-10-13"
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+run_worker_first = true
+
+# D1 is provisioned by Wrangler on the first deployment.
+[[d1_databases]]
+binding = "DB"
+database_name = "leaffleet-db"
+
+[triggers]
+crons = ["* * * * *"]
+
+[build]
+command = "node scripts/prepare-assets.mjs"
