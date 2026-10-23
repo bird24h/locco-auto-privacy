@@ -31,7 +31,7 @@ The latest packaging checks are recorded in [docs/verification.md](docs/verifica
 
 ## Project state
 
-Public source release based on the 1.11.0 Worker distribution. Payment details and deployment identifiers are replaced with examples. It needs your own D1 database and Telegram configuration.
+Based on the 1.11.0 Worker distribution. The application requires a D1 database and Telegram configuration. The case study uses demonstration records and excludes operational account details.
 
 ## Source
 

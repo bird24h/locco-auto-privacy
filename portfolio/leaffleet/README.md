@@ -31,7 +31,7 @@ The latest packaging checks are recorded in [docs/verification.md](docs/verifica
 
 ## Project state
 
-The cloud application is version 1.2.0. The separate demo/ directory contains the later standalone 2.5 interface with a small fixture generated entirely from fixed synthetic values. They are kept separate so a demonstration cannot be mistaken for live vehicle data. Physical vehicle validation remains a separate hardware step.
+The cloud implementation is version 1.2.0, with a later standalone 2.5 demonstration interface. Public preview data is generated from fixed synthetic values without coordinates or user profiles. Physical vehicle validation remains a separate hardware step.
 
 ## Source
 

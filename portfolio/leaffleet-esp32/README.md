@@ -30,7 +30,7 @@ The latest packaging checks are recorded in [docs/verification.md](docs/verifica
 
 ## Project state
 
-Firmware source version 1.1.0. Host-side tests cover decoding and counters. CAN and GNSS are disabled by default. The public source uses an example ingest URL; board builds and signal verification on the target vehicle are separate steps. Prebuilt binaries are excluded.
+Firmware version 1.1.0. Native checks cover decoding, delivery policy and counters. CAN and GNSS are disabled by default. Board builds and signal verification on the intended vehicle remain separate hardware steps.
 
 ## Source
 
