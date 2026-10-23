@@ -8,10 +8,10 @@ Based in Zhytomyr, Ukraine. Interested in automation development and practical w
 ### Selected work
 
 <table>
-<tr><td width="50%"><a href="./fleetdesk"><img src="profile-assets/fleetdesk.svg" width="100%" alt="FleetDesk"></a></td><td width="50%"><a href="./leaffleet"><img src="profile-assets/leaffleet.svg" width="100%" alt="LeafFleet"></a></td></tr><tr><td width="50%"><a href="./locco-auto"><img src="profile-assets/locco-auto.svg" width="100%" alt="Locco Auto"></a></td><td width="50%"><a href="./keycrm-assistant"><img src="profile-assets/keycrm-assistant.svg" width="100%" alt="keyCRM Assistant"></a></td></tr><tr><td width="50%"><a href="./leaffleet-esp32"><img src="profile-assets/leaffleet-esp32.svg" width="100%" alt="LeafFleet / ESP32"></a></td><td width="50%"><a href="./homeguard"><img src="profile-assets/homeguard.svg" width="100%" alt="HomeGuard"></a></td></tr>
+<tr><td width="50%"><a href="https://github.com/bird24h/locco-auto-privacy/tree/main/portfolio/fleetdesk"><img src="profile-assets/fleetdesk.svg" width="100%" alt="FleetDesk"></a></td><td width="50%"><a href="https://github.com/bird24h/locco-auto-privacy/tree/main/portfolio/leaffleet"><img src="profile-assets/leaffleet.svg" width="100%" alt="LeafFleet"></a></td></tr><tr><td width="50%"><a href="https://github.com/bird24h/locco-auto-privacy/tree/main/portfolio/locco-auto"><img src="profile-assets/locco-auto.svg" width="100%" alt="Locco Auto"></a></td><td width="50%"><a href="https://github.com/bird24h/locco-auto-privacy/tree/main/portfolio/keycrm-assistant"><img src="profile-assets/keycrm-assistant.svg" width="100%" alt="keyCRM Assistant"></a></td></tr><tr><td width="50%"><a href="https://github.com/bird24h/locco-auto-privacy/tree/main/portfolio/leaffleet-esp32"><img src="profile-assets/leaffleet-esp32.svg" width="100%" alt="LeafFleet / ESP32"></a></td><td width="50%"><a href="https://github.com/bird24h/locco-auto-privacy/tree/main/portfolio/homeguard"><img src="profile-assets/homeguard.svg" width="100%" alt="HomeGuard"></a></td></tr>
 </table>
 
-Also in progress: [Auction Vault](./auction-vault) — an encrypted auction catalog with a browser capture bridge and Google Drive synchronization.
+Also in progress: [Auction Vault](https://github.com/bird24h/locco-auto-privacy/tree/main/portfolio/auction-vault) — an encrypted auction catalog with a browser capture bridge and Google Drive synchronization.
 
 ### What I work with
 
