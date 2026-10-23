@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="218" viewBox="0 0 600 218" role="img" aria-label="LeafFleet">
+<rect x="1" y="1" width="598" height="216" rx="16" fill="#101928" stroke="#29364a"/>
+<path d="M25 32h26" stroke="#74ded4" stroke-width="4" stroke-linecap="round"/>
+<g font-family="DejaVu Sans,Arial,sans-serif"><text x="25" y="76" fill="#f2f5fc" font-size="30" font-weight="700">LeafFleet</text>
+<text x="25" y="109" fill="#adb9ce" font-size="16">Know what your EV is doing.</text>
+<text x="25" y="160" fill="#74ded4" font-size="10" letter-spacing="1.4">EV TELEMETRY / MOBILE DASHBOARD</text>
+<text x="25" y="192" fill="#73859d" font-size="11">JavaScript · Cloudflare Workers · D1 · Telegram</text>
+<text x="573" y="40" fill="#596a83" font-size="13" text-anchor="end">02</text></g></svg>
